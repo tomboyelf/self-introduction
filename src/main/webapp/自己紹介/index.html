@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>自己紹介サイト</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+
+<!-- アコーディオン =========================== -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+    $(function(){
+    // $("#contents-1").show();
+    $('.contents-header').click(function(){
+      $(this).next('main .wrapper').slideToggle();
+      $(this).toggleClass("open");
+        });
+    });
+    </script>
+<!-- アコーディオン =========================== -->
+
+
+
+<!-- スライドショー =========================== -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<!-- スライドショー =========================== -->
+
+  </head>
+  <body>
+
+<!-- ページ上部 ===========================-->
+    <header class="wrapper">
+      <div class="header-contents">
+        <h1>自己紹介サイト</h1>
+        <!-- <nav>
+          <ul>
+            <li><a href="#">2ページ目</a></li>
+            <li><a href="#">3ページ目</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </header>
+
+<!-- ページ中央=========================== -->
+    <main>
+      <!-- <div class="main-visual">
+        <a href="hob1.html">
+          <img src="C:\macaroni\研修\4.17\自己紹介\img\mainvisual-1.jpg" alt="トップ画像">
+        </a>
+        <a href="index.html">
+          <img src="C:\macaroni\研修\4.17\自己紹介\img\mainvisual-2.jpg" alt="トップ画像">
+        </a>
+        <a href="hob2.html">
+          <img src="C:\macaroni\研修\4.17\自己紹介\img\mainvisual-3.jpg" alt="トップ画像">
+        </a>
+      </div> -->
+
+
+<!-- コンテンツ部分=========================== -->
+
+      <div class="contents-header">
+        <h2>変わった苗字ですね</h2>
+      </div>
+      <div id="contents-1" class="wrapper">
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\name.jpg" alt="自己紹介画像" class="contents-img">
+              <img src="C:\macaroni\研修\4.17\自己紹介\img\name2.jpg" alt="自己紹介画像" class="contents-img">
+            <!-- <img src="C:\macaroni\研修\4.17\自己紹介\img\works4.jpg" alt="自己紹介画像" class="contents-img"> -->
+          </div>
+          <div class="contents-p">
+            <p class="">初めまして、生まれてこの方自分の苗字を人に忘れられたことのない津尾です。</p>
+            <p class="">この苗字の人間を今までで一度も見たことがないという方がほとんどなのではないでしょうか。私自身、今まで生きてきて同じ苗字の人に出会ったことがありません。</p>
+            <p class="">覚えてもらいやすいといったメリットの反面、珍しいということで学生の頃はよく目立っていました。</p>
+            <p class="">どれだけ珍しいかを調べるため、<a href="https://myoji-yurai.net/">苗字由来net</a>で検索したところ、東京都には私と同じ苗字が１０人程度しかいないとのことでした。</p>
+            <p class="">ほかの苗字、例えば佐藤さんと比べると、その差は歴然としていることが画像から見てとれます。</p>
+            <p class="">希少価値高めです。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contents-header">
+        <h2>生まれも育ちも</h2>
+      </div>
+      <div id="contents-2" class="wrapper">
+        <div class="contents-box">
+          <div class="contents-p">
+            <p class="">東京都小金井市です。</p>
+            <p class="">東へ行けば住みたい街ランキングTOPの吉祥寺と、西に行けばららぽーとを持つ立川とにはさまれ、人気をその両方にとられてる静かな街です。学校と公園とラーメン屋の数がたくさんあります。</p>
+            <p class="">中でも公園に植えられた桜が人気で、春にはそのためのイベントが開かれることもあります。</p>
+            <p class="">私が住む周りでは、飲食のチェーン店がたびたび出店してきますが、来客が少ないのかすぐ撤退していきます。</p>
+            <p class="">楽器店（と工房が一緒になったタイプの店）があります。宮地楽器といいます。<br>このタイプの店は探しても少なく、楽器を弾く身として重宝してます。</p>
+          </div>
+          <div class="contents-box-img">
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\sakura.jpg" alt="自己紹介画像" class="contents-img">
+            <p>左の〇が私の住処です。</p>
+            <p>右が職場です。</p>
+          </div>
+        </div>
+        <div class="contents-box">
+          <div class="contents-p">
+            <p class="">自宅の最寄り駅が東小金井駅です。</p>
+            <p class="">毎朝ここから中央線に乗って飯田橋まで通勤しています。</p>
+            <p class="">駅前にまいばすけっとがあり、そこで弁当の具材を調達しています。</p>
+            <p class="">普段は静かな街ですが、夏になると駅前のグラウンドで祭りが開かれます。グラウンド中央にステージが用意され、周りには出店が置かれ、花火もあがります。</p>
+            <p class="">その祭りには生まれてこの方一度もいったことがありません。</p>
+            <p class=""></p>
+          </div>
+          <div class="contents-box-img">
+            <!-- <img src="C:\macaroni\研修\4.17\自己紹介\img\from.jpg" alt="自己紹介画像" class="contents-img"> -->
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\maturi.jpg" alt="自己紹介画像" class="contents-img">
+            <!-- <img src="C:\macaroni\研修\4.17\自己紹介\img\works4.jpg" alt="自己紹介画像" class="contents-img"> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="contents-header">
+        <h2>こんな学生でした</h2>
+      </div>
+      <div id="contents-3" class="wrapper">
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\school-1.jpg" alt="自己紹介画像" class="contents-img">
+            <!-- <img src="C:\macaroni\研修\4.17\自己紹介\img\school-2.jpg" alt="自己紹介画像" class="contents-img"> -->
+          </div>
+          <div class="contents-p">
+            <p class="">出身高校は都立小平南高校です。</p>
+            <p class="">落ち着いた雰囲気の学校で、校則も厳しすぎず緩すぎずなものでした。</p>
+            <p class="">年に一回50km歩く学校行事があること<br>
+              吹奏楽部がコンクールで良い成績を収めていること</p>
+            <p class="">などの特徴を有した学校です。</p>
+            <p class="">数学が好きで、特に数学Bのベクトルの問題を解くことに一時期熱中していました。<br>しかし大学は文系に進みました。</p>
+            <p class="">部活の未所属が認められていなかったため、写真部に籍を置いていました。ほぼ幽霊でした。</p>
+            <p class="">1年生の時に、文化祭の時に作るクラスTシャツをクラスで唯一注文しませんでした。</p>
+            <p class="">遅刻を繰り返し生活指導の先生に怒られ、登校時間より1時間早く（7時半）来るよう言われました。</p>
+            <p class="">卒業間近に、有休を消化する感覚で学校を休んでいたら担任の先生に怒られました。</p>
+            <p class="">パズドラが異様にうまく、陸上のボルト選手を愛してやまないW君とは3年間同じクラスで、こんな私とも親しくしてくれました。</p>
+          </div>
+        </div>
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\school-2.jpg" alt="自己紹介画像" class="contents-img">
+          </div>
+          <div class="contents-p">
+            <p class="">出身大学は専修大学です。</p>
+            <p class="">飯田橋駅から東西線で一駅乗ったところにある九段下が学校の最寄り駅です。<br>キャンパスのすぐ近くに皇居や靖国神社があります。<br>また神保町の特色でもあるたくさんの古本屋が、通りに店を構えています。出版年の古い本をお探しなら足を延ばしてみることをお勧めします。</p>
+            <p class="">学部は商学部で、主に会計の分野を学びました。</p>
+            <p class="">単位を取ることのみに注力し、気付いたら卒業していました。</p>
+            <p class="">ゼミには一時期籍を置いていましたが、時間の無駄になると思い抜けました。</p>
+            <p class="">サークルに入らず、友達も作らずな4年間でした。</p>
+            <p class="">同じ服を2着用意し、それを繰り返した着ていたところ学部の女子生徒グループに服装がいつも同じであることを笑われました。</p>
+            <p>「あの人いつも同じ服着てない？」
+              <br>「やめなよ本人に聞こえるよ」</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contents-header">
+        <h2>お弁当は温めますか</h2>
+      </div>
+      <div id="contents-4" class="wrapper">
+        <div class="contents-box">
+          <div class="contents-p">
+            <p class="">大学生の時にアルバイトとして働いていたのは、某コンビニでした。</p>
+            <p class="">住宅街の中にあり、駅前とは違って客足が少なく、また来客の顔ぶれも常に同じなところが特徴の店舗でした。</p>
+            <p class="">店長はギャンブル好きでレモンティーを愛飲していました。副店長は酒が大好きで、NHKと朝日新聞が大嫌いでした。</p>
+            <p class="">コンビニ業務は総じて簡単で、よほどのイレギュラーが起こらない限り常に同じ仕事を繰り返します。</p>
+            <p class="">しかし初めのうちはミスが絶えませんでした。</p>
+            <p class="">夏に冷たいそうめんをレンジで温めました。<br>レジマイナスたくさん出しました。<br>商品の有無を尋ねるお客さんの質問に、確認する前に無いと答えていました。
+            <p class="">アルバイトを通して得られたことは、たばこの銘柄に関する知識とお札の枚数をかっこよく数える技術です。</p>
+            <!-- <div class="tweet">
+              <a class="twitter-timeline" data-height="380" href="https://twitter.com/famima_now?ref_src=twsrc%5Etfw">Tweets by famima_now</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div> -->
+          </div>
+          <div class="contents-box-img">
+            <img src="C:\macaroni\研修\4.17\自己紹介\img\arubaito.jpg" alt="自己紹介画像" class="contents-img">
+          </div>
+        </div>
+      </div>
+      <div class="contents-header">
+        <h2>空いた時間に本を読みます</h2>
+      </div>
+      <div class="wrapper">
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="img/lib.jpg" alt="">
+          </div>
+          <div class="contents-p">
+            <p>
+              読書が好きです。
+            </p>
+            <p>
+              子供のころ、読書好きな父が行く先々で本を開いて読んでいる様子を見て、いつからか真似するようになりました。
+            </p>
+            <p>
+              小学生のころに、外へ出かけるときの行先は、決まって図書館でした。館内の落ち着いた雰囲気がとても好きで、今でも通うことがあります。
+            </p>
+            <p>
+              一時期、司書として図書館で働くことも考えましたが、その時すでに学校の司書資格のコース申し込み期間を過ぎていたため、断念しています。
+            </p>
+          </div>
+        </div>
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="img/agasa.jpg" alt="">
+          </div>
+          <div class="contents-p">
+            <p>
+              活字であればなんでもよいというわけではなく、好き嫌いがあります。
+            </p>
+            <p>
+              大衆小説が好きで、中でも 心温まる短編集や、序盤の伏線をきれいに回収していくミステリーには目がありません。
+            </p>
+            <p>
+              反対に、地名等の固有名詞がとめどなく飛び交う作品や、展開のゆっくりな純文学は苦手です。
+            </p>
+            <p>
+              好きになった作品の作者が書いたものすべてが好きというわけではありません。例えば、伊坂幸太郎の殺し屋シリーズは好きですが、魔王（モダンタイムス）は後味という点において大して好きになれませんでした。
+            </p>
+            <p>
+
+            </p>
+          </div>
+        </div>
+        <div class="contents-box">
+          <div class="contents-box-img">
+            <img src="img/book.jpg" alt="">
+          </div>
+          <div class="contents-p">
+            <p>
+              時間を捻出して向き合うほどの積極的な趣味とは言えませんが、手持無沙汰なときに読めるよう、いつでも文庫本を持ち歩いています。特に、通勤通学などで長時間電車に乗るときは決まって本を読むようにしています。
+            </p>
+            <p>
+              これは以前の交際相手へのプレゼントとして、吉祥寺のジュンク堂で買ったブックカバーです。(¥880)
+
+            </p>
+            <p>
+              後日冷静に考え直し、ほかのものにしたほうが良いという結論に達しまして、結局自分で使うことになりました。
+            </p>
+            <p>
+
+          </div>
+        </div>
+        <div class="contents-box">
+          <div class="contents-p">
+          </div>
+        </div>
+        <!-- <div class="wrapper"> -->
+        <p class="media-hide">
+          以下は最近読んだ作品の中で面白かったものです。
+        </p>
+          <div class="contents">
+            <div class="contents-image">
+              <img src="img/book-4.jpg" alt="本の画像" id="book-img">
+            </div>
+            <div class="contents-txt">
+              <h3 id="book-title">グラスホッパー</h3>
+              <p id="book-about">妻の復讐を目論む元教師「鈴木」。自殺専門の殺し屋「鯨」。ナイフ使いの天才「蝉」。３人の思いが交錯するとき、物語は唸りをあげて動き出す。疾走感溢れる筆致で綴られた、分類不能の「殺し屋」小説！</p>
+              <p id="book-why">作品全体のテンポや、最後までつかみきれない不気味なキャラクターの存在が話を面白くしていると感じました。読者が抱くであろう感想を代弁してくれる登場人物がいることも、読みやすさにつながっているように思います。オケの先輩に紹介していただいた作品です。</p>
+            </div>
+          </div>
+          <div class="button-box">
+            <button type="button" name="button" onclick="slide()">1</button>
+            <button type="button" name="button" onclick="slide2()">2</button>
+            <button type="button" name="button" onclick="slide3()">3</button>
+          </div>
+          <p class="media-hide"><a href="https://bookmeter.com/">あらすじの引用元サイト</a></p>
+        </div>
+
+        <div class="contents-header">
+          <h2>楽器を弾きます</h2>
+        </div>
+        <div class="wrapper">
+          <div class="contents-box">
+            <div class="contents-p">
+              <p>生きがいです。</p>
+              <p>小学校2年生の時に始めたもので、現在に至るまで（ブランクはありますが）続けることのできている趣味らしい趣味です。</p>
+              <p>仕事がある日は2時間程度、ない日は1日中楽器を弾いています。</p>
+              <p>夜の10時まで弾きます。近所からクレームが来ないか不安です。</p>
+              <p>プロの奏者の方に師事しています。1ヵ月ごとにレッスンを受けています。</p>
+              <p>楽器はヤフオクで1万円で買いました。</p>
+              <p>首にあざができます。 </p>
+              <p>楽器のおもしろさは、いくら練習しても課題が尽きないところ、そしてその課題は必ず解決できるところにあります。<br>アップデートの尽きないmmoのようなものです。</p>
+              <p>成功体験が次の練習の原動力になり、その結果1日中楽器を弾き続けるようになります。</p>
+            </div>
+            <div class="contents-box-img">
+              <img src="img/violin.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="contents-box">
+            <div class="contents-p">
+              <p>また私はアマチュアのオーケストラに所属しています。社会人サークルとしてのオーケストラで、所属メンバーは皆年齢がバラバラで、様々な肩書を持っています。</p>
+              <p>年に2回の定期演奏会に向けて、毎週金曜日に茗台アカデミー（飯田橋から徒歩20分）で練習しています。</p>
+              <p>30年ほど前に設立されたオーケストラだそうです。</p>
+              <p>メンバーは50人程度で、弦楽器は若い世代が中心で、管楽器はベテラン揃いです。</p>
+              <p>団長のお人柄と、コンマスの技術のもとに結束しています。</p>
+              <p>弦楽器（チェロを除く）はメンバー募集中です。</p>
+            </div>
+            <div class="contents-box-img">
+              <img src="img/oke3.jpg" alt="">
+              <div class="contents-box-img" id="img-reigai">
+                <img src="img/oke4.jpg" alt="">
+                <p>左の〇が私のポジションです。</p>
+              </div>
+            </div>
+          </div>
+          <div class="contents-box">
+            <div class="contents-p">
+              <p>オーケストラに籍を置く意義は、周りから良い刺激が得られること、そして上手な奏者と弾いて得られる自身の成長であると感じています。</p>
+              <p>また、ついていけない人間をサポートする仕組みがないため、常に自分ひとりで課題を考えて解決までつなげようとするくせがつくようになります。</p>
+              <p>リズム感覚が養われます。</p>
+              <p>人目をあまり気にしなくなります。</p>
+              <p>演奏会後にたくさんの人から拍手がもらえます。</p>
+              <p>まだまだ自分の技術では課題が山積みなのが現状ではありますが、一生ものの趣味として大切にしていきたいと考えています。</p>
+            </div>
+            <div class="contents-box-img">
+              <img src="img/oke1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+<!-- ページ下部 ===========================-->
+    <footer class="wrapper">
+      <p>&copy; 2024 Profile</p>
+      <a href="https://jp.freepik.com/free-photo/halloween-party_9164228.htm#fromView=search&page=1&position=16&uuid=88d7122e-aebb-4b33-b7de-586a288d80e6">背景著作者：freepik</a>
+    </footer>
+
+
+<!-- スライドショー =========================== -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+    <!-- <script>
+    $(document).ready(function(){
+      $('.main-visual a').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    });
+    </script> -->
+    <!-- スライドショー =========================== -->
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

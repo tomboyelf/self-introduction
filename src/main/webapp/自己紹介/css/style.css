@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "myfont";
+  src: url("../font/Chalk-S-JP.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "myfont2";
+  src: url("../font/AsobiMemogaki-Regular-1-02.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "myfont3";
+  src: url("../font/ShigotoMemogaki-Regular-1-02.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "myfont4";
+  src: url("../font/TachibanaFont2024.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "myfont5";
+  src: url("../font/Chalk-S-JP.otf") format("opentype");
+}
+
+html {
+  /* font-size: 100%; */
+ overflow-y: scroll;
+}
+
+body {
+  /* color: #383e45;
+  font-size: 0.9rem; */
+  margin: 0;
+  background-color: #FAFEFD;
+  background-image: url("../img/halloween-party.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: "myfont4";
+  color: white;
+  font-weight:100;
+  letter-spacing: 0.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "myfont";
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  /* border: solid 1px black; */
+
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+
+
+/* ページ上部 ===========================*/
+.header-contents {
+  /* border: solid 1px black; */
+
+  width: 960px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*
+  position: fixed;
+  top: 0; */
+}
+
+header ul {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+header ul li {
+    margin-left: 30px;
+}
+
+
+/* ページ中央 ===========================*/
+main {
+  /* margin-top: 90px; */
+  margin-bottom: 90px;
+}
+
+/* imgセクション */
+.main-visual {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.main-visual a {
+  /* border: solid 1px black; */
+
+  width: 33%;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.main-visual a img {
+  width: 100%;
+}
+
+.main-visual a img:hover {
+  opacity: 0.7;
+}
+
+
+/* 本紹介のスタイル */
+
+.contents {
+  border: solid 1px white;
+
+  width: 90%;
+  height: 490px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contents-image {
+  /* border: soli d 1px white; */
+
+  width: 50%;
+  height: 90%;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.contents-image img {
+  height: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.contents-txt {
+  /* border: solid 1px black; */
+
+  width: 50%;
+  height: 480px;
+}
+
+#book-about {
+  font-size: 16px;
+  font-family: "myfont5";
+  margin-bottom: 50px;
+}
+
+#book-why {
+  font-size: 18px;
+  font-family: "myfont4";
+}
+
+.button-box {
+  /* border: solid 3px black; */
+
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-box button {
+  background:  transparent;
+  color: white;
+  font-size: 16px;
+  border: solid 3px white;
+  /* border-radius: 20%; */
+  border-width: 0.1px;
+  width: 40px;
+  height: 40px;
+}
+
+.button-box button:hover {
+  background-color: white;
+  color: black;
+
+}
+
+
+.wrapper a:hover {
+  opacity: 0.7;
+}
+
+
+
+/* ページ下部 ===========================*/
+footer{
+  text-align: center;
+}
+
+footer p {
+  font-size: 10px;
+}

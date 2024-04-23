@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* コンテンツ部分 */
+main .wrapper {
+  margin-bottom: 50px;
+}
+
+.contents {
+  /* border: solid 1px black; */
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.contents-txt {
+  /* border: solid 1px black; */
+
+  width: 50%;
+}
+
+.contents-txt img {
+  width: 400px;
+}
+
+.contents-img {
+  /* border: solid 1px black; */
+
+  width: 40%;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.contents-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
